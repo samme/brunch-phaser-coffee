@@ -9,7 +9,7 @@ window.game = new Phaser.Game
   # canvasStyle: null
   # seed: null
   title: '☕️ Brunch with Phaser'
-  url: 'https://github.com/samme/brunch-phaser'
+  url: 'https://github.com/samme/brunch-phaser-coffee'
   version: '0.0.1'
   # input:
   #   keyboard: on

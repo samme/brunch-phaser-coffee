@@ -1,11 +1,11 @@
-Brunch with Phaser 3
+Brunch with Phaser 3 (CoffeeScript)
 ====================
 
 A [Brunch](http://brunch.io) skeleton for making games with [Phaser 3](http://phaser.io/phaser3) and [CoffeeScript][1]. ([Why Brunch?](http://brunch.io/docs/why-brunch))
 
     brunch new <project> -s samme/brunch-phaser-coffee
 
-(For Phaser 2 [CE], please see [brunch-phaser2](https://github.com/samme/brunch-phaser2).)
+This is the CoffeeScript variant of [brunch-phaser](https://github.com/samme/brunch-phaser).
 
 Get started
 -----------
@@ -36,7 +36,6 @@ Update with:
 
 See the `npm.static` entry in [brunch-config](./brunch-config.coffee).
 
-
 Add NPM packages
 ----------------
 
@@ -44,8 +43,8 @@ Add NPM packages
 
 and in your code:
 
-```javascript
-require('package-name');
+```coffee
+require 'package-name'
 ```
 
 Add other libraries
