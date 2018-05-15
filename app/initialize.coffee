@@ -32,6 +32,7 @@ window.game = new Phaser.Game
   #   min: 10
   #   target: 60
   #   forceSetTimeout: off
+  # antialias: off
   # pixelArt: off
   # transparent: off
   # clearBeforeRender: on
@@ -39,7 +40,7 @@ window.game = new Phaser.Game
   loader:
     # baseURL: ''
     path: 'assets/'
-    maxParallelDownloads: 6
+    # maxParallelDownloads: 32
     # crossOrigin: 'anonymous'
     # timeout: 0
   physics:
